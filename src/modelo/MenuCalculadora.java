@@ -3,7 +3,7 @@ package modelo;
 import java.util.Scanner;
 
 import javax.swing.JOptionPane;
-
+//Teste de commit
 public class MenuCalculadora {
 	static Integer valorMenu = 0;
 	static Scanner teclado = new Scanner(System.in);	
