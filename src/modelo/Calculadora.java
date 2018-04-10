@@ -45,19 +45,18 @@ public class Calculadora {
 		resultado=valor1+valor2;
 		resultados.add("["+valor1+"+"+valor2+"="+resultado+"]");
 	}
-
+	
 	public void subtrair(){
 		resultado=valor1-valor2;
 		resultados.add("["+valor1+"-"+valor2+"="+resultado+"]");
 	}
-	
+	public void dividir(){
+		resultado=valor1/valor2;
+		resultados.add("["+valor1+"//"+valor2+"="+resultado+"]");
+	}
 	public void multiplicar(){
 		resultado=valor1*valor2;
 		resultados.add("["+valor1+"*"+valor2+"="+resultado+"]");
 	}
-	
-	public void dividir(){
-		resultado=valor1/valor2;
-		resultados.add("["+valor1+"/"+valor2+"="+resultado+"]");
-	}
+
 }
